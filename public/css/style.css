@@ -15495,9 +15495,7 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
-
-/*# sourceMappingURL=style.css.map */
-.bgimg{
+.bgimg {
   background-image: url("../images/banner1.jpg");
   min-height: 650px;
   background-position: center;
@@ -15510,15 +15508,12 @@ readers do not read off random characters that represent icons */
   position: absolute;
   margin: 20px;
   width: auto;
-  margin-left: 300px;/*modif*/
-  z-index: auto;
-  
+  margin-left: 300px;
 }
 
 .topnav {
-  overflow: hidden; 
+  overflow: hidden;
 }
-
 
 .topnav a {
   float: left;
@@ -15527,18 +15522,14 @@ readers do not read off random characters that represent icons */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
-
-  
 }
 
 .topnav a:hover {
-  background-color: rgb(230, 22, 101);
+  background-color: #e61665;
   color: white;
-  
 }
 
-.bgopacity{
+.bgopacity {
   opacity: 0.62;
   background-image: url("../images/bg-dark.jpg");
   background-position: center;
@@ -15546,23 +15537,43 @@ readers do not read off random characters that represent icons */
   background-size: cover;
   position: absolute;
   width: 100%;
-  
-  
+}
 
-}
- /*.carousel-item{
-image noir
-}
-*/
-.sizeimgdark{
+.sizeimgdark {
   height: 650px;
 }
 
-.mainbg{
+.mainbg {
   background-image: url("../images/main_bg.jpg");
 }
 
-.mainbg h2{
-  font-family: 'Courgette', cursive;
-  
+.mainbg h2 {
+  font-family: "Courgette", cursive;
 }
+
+.icone i {
+  color: #e61665;
+}
+
+.icone h2 {
+  color: #e61665;
+}
+
+.bottomdeco {
+  position: absolute;
+}
+
+.partichef h2 {
+  font-family: "Courgette", cursive;
+  padding-top: 90px;
+}
+
+.partichef {
+  background-image: url("../images/team_background.jpg");
+}
+
+.leschefs {
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
