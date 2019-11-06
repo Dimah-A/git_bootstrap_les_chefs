@@ -15510,14 +15510,15 @@ readers do not read off random characters that represent icons */
   position: absolute;
   margin: 20px;
   width: auto;
+  margin-left: 300px;/*modif*/
+  z-index: auto;
   
 }
 
 .topnav {
-  overflow: hidden;
-  
-  
+  overflow: hidden; 
 }
+
 
 .topnav a {
   float: left;
@@ -15526,6 +15527,9 @@ readers do not read off random characters that represent icons */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
+
+  
 }
 
 .topnav a:hover {
@@ -15534,5 +15538,31 @@ readers do not read off random characters that represent icons */
   
 }
 
+.bgopacity{
+  opacity: 0.62;
+  background-image: url("../images/bg-dark.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  
+  
 
+}
+ /*.carousel-item{
+image noir
+}
+*/
+.sizeimgdark{
+  height: 650px;
+}
 
+.mainbg{
+  background-image: url("../images/main_bg.jpg");
+}
+
+.mainbg h2{
+  font-family: 'Courgette', cursive;
+  
+}
