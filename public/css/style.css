@@ -15572,8 +15572,30 @@ readers do not read off random characters that represent icons */
   background-image: url("../images/team_background.jpg");
 }
 
-.leschefs {
-  position: absolute;
+.testimonials h2 {
+  font-family: "Courgette", cursive;
+}
+
+.testimonials {
+  background-image: url(../images/testimonials_background.jpg);
+}
+
+.taille {
+  height: 190px;
+  width: 290px;
+}
+
+.sizeimg {
+  height: 76px;
+  width: 76px;
+}
+
+.rouge {
+  transform: translate(10px, -20px);
+}
+
+.rougb {
+  transform: translate(2px, -20px);
 }
 
 /*# sourceMappingURL=style.css.map */
