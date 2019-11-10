@@ -15504,11 +15504,12 @@ readers do not read off random characters that represent icons */
   position: relative;
 }
 
+.bgimg h1 {
+  font-family: "Courgette", cursive;
+}
+
 .container {
   position: absolute;
-  margin: 20px;
-  width: auto;
-  margin-left: 300px;
 }
 
 .topnav {
@@ -15557,10 +15558,6 @@ readers do not read off random characters that represent icons */
 
 .icone h2 {
   color: #e61665;
-}
-
-.bottomdeco {
-  position: absolute;
 }
 
 .partichef h2 {
@@ -15635,10 +15632,19 @@ input {
   width: 60px;
 }
 
-@media (min-width: 375px) and (max-width: 1100px) {
-  h2 {
-    color: green;
-    font-size: 100px;
+.taste {
+  color: red;
+}
+
+@media (min-width: 370px) and (max-width: 1100px) {
+  section:first-child {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .bgimg button {
+    width: 100%;
+    max-width: 50%;
   }
 }
 
